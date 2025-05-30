@@ -5,10 +5,10 @@
 }
 
 .nav li {
-  list-style: none;
+  list-style: none !important;
 }
 
-.nav {
+/* .nav {
   width: 100vw;
   position: fixed;
   display: flex;
@@ -18,6 +18,24 @@
   padding: 20px;
   color: white;
   cursor: pointer;
+} */
+
+.collapse {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.container-fluid {
+  color: whitesmoke;
+  background-color: #1d1d1f;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+
 }
 
 .box1 img {
@@ -58,9 +76,11 @@
   color: white;
   border: #0071e3;
   border-radius: 16px;
+  transition: all ease 0.6s;
 }
 
 .buy {
+  transition: all ease 0.6s;
   position: absolute;
   top: 220px;
   right: 550px;
@@ -86,6 +106,7 @@
   height: 100vh;
   width: 100%;
 }
+
 .learns {
   position: absolute;
   top: 220px;
@@ -96,10 +117,14 @@
   background-color: #f5f5f7;
   font-weight: bold;
   cursor: pointer;
+
+  transition: all ease 0.6s;
 }
+
 .learns:hover {
   background-color: #ebebf6;
 }
+
 .buys {
   position: absolute;
   top: 220px;
@@ -111,7 +136,9 @@
   font-weight: bold;
   cursor: pointer;
   color: #f5f5f7;
+  transition: all ease 0.6s;
 }
+
 .buys:hover {
   background-color: #f5f5f7;
   color: #000;
@@ -120,6 +147,7 @@
 .blue {
   position: relative;
 }
+
 .iphone16 {
   position: absolute;
   top: 160px;
@@ -128,6 +156,7 @@
   font-size: 50px;
   color: white;
 }
+
 .inform {
   margin-top: 20px;
   background-color: whitesmoke;
@@ -135,11 +164,13 @@
   line-height: 23px;
   margin: 0 auto;
 }
+
 .apple {
   width: 85%;
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
 .apple img {
   height: 100vh;
   width: 100%;
@@ -148,6 +179,7 @@
 .apple {
   position: relative;
 }
+
 .gift {
   position: absolute;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -156,6 +188,7 @@
   bottom: 100px;
   right: 420px;
 }
+
 .holiday {
   position: absolute;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -164,6 +197,7 @@
   bottom: 60px;
   right: 330px;
 }
+
 .giftsbtn {
   position: absolute;
   bottom: 1px;
@@ -175,7 +209,9 @@
   font-weight: bold;
   cursor: pointer;
   color: #f5f5f7;
+  transition: all ease 0.6s;
 }
+
 .giftsbtn:hover {
   background-color: #4d7196;
 }
@@ -192,30 +228,35 @@
   line-height: 20px;
   flex: 1;
 }
+
 .silo {
   flex: 1;
 }
+
 .ipad img {
   height: 100vh;
   width: 100%;
 }
+
 .silo img {
   width: 100%;
   height: 100vh;
 }
+
 .text {
   font-style: italic;
   color: #1a70be;
   font-size: 50px;
 }
 
-.ipad > h1 {
+.ipad>h1 {
   font-size: 50px;
   position: absolute;
   top: 40px;
   left: 200px;
 }
-.ipad > p {
+
+.ipad>p {
   font-size: 20px;
   position: absolute;
   top: 90px;
@@ -233,11 +274,13 @@
   font-weight: bold;
   cursor: pointer;
   color: #f5f5f7;
+  transition: all ease 0.6s;
 }
 
 .learnmore:hover {
   background-color: #4d7196;
 }
+
 .buying {
   position: absolute;
   right: 870px;
@@ -250,10 +293,12 @@
   cursor: pointer;
   color: #0071e3;
 }
+
 .buying:hover {
   color: #f5f5f7;
   background-color: #0071e3;
 }
+
 .airpods4 {
   position: absolute;
   bottom: 190px;
@@ -261,6 +306,7 @@
   color: #f5f5f7;
   font-size: 50px;
 }
+
 .super {
   position: absolute;
   bottom: 160px;
@@ -268,6 +314,7 @@
   right: 200px;
   color: #f5f5f7;
 }
+
 .active {
   position: absolute;
   bottom: 120px;
@@ -275,6 +322,7 @@
   font-size: 25px;
   color: #f5f5f7;
 }
+
 .noise {
   position: absolute;
   bottom: 50px;
@@ -286,7 +334,9 @@
   font-weight: bold;
   cursor: pointer;
   color: #f5f5f7;
+  transition: all ease 0.6s;
 }
+
 .noise:hover {
   background-color: #4d7196;
 }
@@ -303,9 +353,11 @@
   cursor: pointer;
   color: #0071e3;
 }
+
 .cancel:hover {
   color: #f5f5f7;
   background-color: #0071e3;
+  transition: all ease 0.6s;
 }
 
 .classic {
@@ -315,14 +367,17 @@
   width: 98%;
   gap: 12px;
 }
+
 .series img {
   width: 100%;
   height: 100vh;
 }
+
 .mac img {
   width: 100%;
   height: 100vh;
 }
+
 .imageapple img {
   width: 50px;
   position: absolute;
@@ -330,7 +385,8 @@
   left: 150px;
   height: 50px;
 }
-.imageapple > h1 {
+
+.imageapple>h1 {
   top: 35px;
   position: absolute;
   left: 200px;
@@ -338,7 +394,7 @@
   color: #212123;
 }
 
-.imageapple > p {
+.imageapple>p {
   top: 90px;
   position: absolute;
   left: 230px;
@@ -346,7 +402,7 @@
   font-size: 20px;
 }
 
-.classics > p {
+.classics>p {
   top: 120px;
   position: absolute;
   left: 210px;
@@ -365,10 +421,12 @@
   font-weight: bold;
   cursor: pointer;
   color: #f5f5f7;
+  transition: all ease 0.6s;
 }
+
 .buybtns {
   position: absolute;
-
+  transition: all ease 0.6s;
   top: 155px;
   left: 300px;
   padding: 15px;
@@ -388,20 +446,23 @@
   color: #f5f5f7;
   background-color: #0071e3;
 }
-.mac > h1 {
+
+.mac>h1 {
   position: absolute;
   top: 30px;
   right: 165px;
   color: #212123;
   font-size: 50px;
 }
-.mac > p {
+
+.mac>p {
   position: absolute;
   top: 95px;
   color: #1d1d1f;
   right: 205px;
   font-size: 20px;
 }
+
 .learner {
   padding: 20px;
   position: absolute;
@@ -412,11 +473,14 @@
   background-color: #0071e3;
   font-weight: bold;
   cursor: pointer;
+  transition: all ease 0.6s;
   color: #f5f5f7;
 }
+
 .learner:hover {
   background-color: #7cafe1;
 }
+
 .buyer {
   top: 135px;
   right: 230px;
@@ -427,6 +491,7 @@
   background-color: transparent;
   font-weight: bold;
   cursor: pointer;
+  transition: all ease 0.6s;
   color: #0071e3;
 }
 
@@ -448,10 +513,12 @@
   width: 100%;
   height: 100vh;
 }
+
 .estimate img {
   width: 100%;
   height: 100vh;
 }
+
 .logo img {
   width: 50px;
   position: absolute;
@@ -467,27 +534,31 @@
   right: 350px;
   height: 50px;
 }
-.logo > h1 {
+
+.logo>h1 {
   font-size: 50px;
   position: absolute;
   top: 30px;
   left: 170px;
   color: #231f20;
 }
-.logo > p {
+
+.logo>p {
   position: absolute;
   font-size: 20px;
   top: 90px;
   color: #1d1d1f;
   left: 100px;
 }
-.higher > p {
+
+.higher>p {
   position: absolute;
   color: #1d1d1f;
   font-size: 20px;
   top: 120px;
   left: 110px;
 }
+
 .estimatebtn {
   padding: 20px;
   position: absolute;
@@ -498,20 +569,23 @@
   background-color: #0071e3;
   font-weight: bold;
   cursor: pointer;
+  transition: all ease 0.6s;
   color: #f5f5f7;
 }
+
 .estimatebtn:hover {
   background-color: #7cafe1;
 }
 
-.logos > h1 {
+.logos>h1 {
   font-size: 50px;
   position: absolute;
   top: 30px;
   right: 230px;
   color: #000;
 }
-.logos > p {
+
+.logos>p {
   font-size: 20px;
   position: absolute;
   top: 80px;
@@ -526,6 +600,7 @@
   right: 220px;
   color: #1d1d1f;
 }
+
 .learnmorebutton {
   border-radius: 20px;
   border: solid 1px #f5f5f7;
@@ -534,10 +609,12 @@
   cursor: pointer;
   color: #f5f5f7;
   padding: 20px;
+  transition: all ease 0.6s;
   position: absolute;
   top: 140px;
   right: 310px;
 }
+
 .learnmorebutton:hover {
   background-color: #7cafe1;
 }
@@ -553,12 +630,14 @@
   font-weight: bold;
   cursor: pointer;
   color: #0071e3;
+  transition: all ease 0.6s;
 }
 
 .applybtn:hover {
   color: #f5f5f7;
   background-color: #0071e3;
 }
+
 .monkey {
   width: 98%;
   margin: 0 auto;
@@ -569,10 +648,12 @@
   height: 100vh;
   margin-top: 20px;
 }
+
 .don {
   width: 98%;
   margin: 0 auto;
 }
+
 .don img {
   width: 100%;
   height: 100vh;
@@ -593,6 +674,7 @@
 }
 
 .unorder {
+
   list-style-type: none;
 }
 
@@ -646,19 +728,467 @@
 
 .right a {
   text-decoration: none;
+  transition: all ease 0.6s;
   color: rgb(121, 109, 109);
 }
 
 .right a:hover {
   text-decoration: underline;
 }
+
 .united a {
   text-decoration: none;
   color: rgb(121, 109, 109);
 }
+
 .united a:hover {
+  transition: all ease 0.6s;
   text-decoration: underline;
 }
+
 .united {
   margin-bottom: 8px;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+  .navbar-collapse {
+    background-color: #1d1d1f;
+    color: whitesmoke;
+  }
+
+  .box2 {
+    right: 200px;
+  }
+
+  .box3 {
+    right: 230px;
+  }
+
+  .learn {
+    right: 340px;
+  }
+
+  .buy {
+    right: 260px;
+  }
+
+  .learns {
+    right: 340px;
+  }
+
+  .buys {
+    right: 260px;
+  }
+
+  .gift {
+    right: 220px;
+    font-size: 43px;
+  }
+
+  .holiday {
+    font-size: 26px;
+    right: 133px;
+    bottom: 70px;
+  }
+
+  .giftsbtn {
+    margin-bottom: 12px;
+    right: 270px;
+  }
+
+  .ipad>p {
+    left: 70px;
+    font-size: 17px;
+  }
+
+  .ipad>h1 {
+    left: 100px;
+    font-size: 42px;
+  }
+
+  .learnmore {
+    right: 580px;
+  }
+
+  .buying {
+    right: 500px;
+  }
+
+  .airpods4 {
+    font-size: 42px;
+    right: 100px;
+  }
+
+  .super {
+    font-size: 22px;
+    right: 90px;
+  }
+
+  .active {
+    font-size: 20px;
+    right: 10px;
+  }
+
+  .noise {
+    right: 200px;
+  }
+
+  .cancel {
+    right: 110px;
+  }
+
+  .imageapple img {
+    left: 100px;
+    width: 40px;
+  }
+
+  .imageapple>h1 {
+    left: 150px;
+    font-size: 42px;
+  }
+
+  .mac>h1 {
+    right: 80px;
+    font-size: 42px;
+  }
+
+  .imageapple img {
+    width: 40px;
+  }
+
+  .imageapple>p {
+    left: 155px;
+  }
+
+  .classics>p {
+    left: 137px;
+  }
+
+  .learnbtns {
+    left: 100px;
+  }
+
+  .buybtns {
+    left: 230px;
+  }
+
+  .mac>p {
+    right: 100px;
+  }
+
+  .learner {
+    right: 200px;
+  }
+
+  .buyer {
+    right: 130px;
+  }
+
+
+  .logo img {
+    width: 40px;
+    left: 90px;
+  }
+
+  .logos img {
+    width: 40px;
+    right: 270px;
+
+  }
+
+  .logo>h1 {
+    left: 150px;
+    font-size: 42px;
+  }
+
+  .logo>p {
+    left: 50px;
+  }
+
+  .higher>p {
+    left: 50px;
+  }
+
+  .estimatebtn {
+    left: 100px;
+  }
+
+  .logos>h1 {
+    font-size: 42px;
+    right: 160px;
+  }
+
+  .logos>p {
+    right: 70px;
+  }
+
+  .spanpara {
+    right: 120px;
+  }
+
+  .learnmorebutton {
+    right: 200px;
+  }
+
+  .applybtn {
+    right: 80px;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  .collapse {
+    display: none !important;
+  }
+
+  .container-fluid {
+    width: 100vw !important;
+    background-color: whitesmoke;
+    z-index: 6;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .blue {
+    display: none;
+  }
+
+  .apple {
+    margin-top: 50px;
+  }
+
+  .gift {
+    right: 80px;
+    font-size: 29px;
+    bottom: 170px;
+  }
+
+  .holiday {
+    font-size: 18px;
+    right: 0px;
+    bottom: 70px;
+  }
+
+  .giftsbtn {
+    margin-bottom: 12px;
+    right: 80px;
+    font-size: 16px;
+  }
+
+  .air {
+    display: grid;
+  }
+
+  .ipad>p {
+    left: 50px;
+    font-size: 17px;
+  }
+
+  .ipad>h1 {
+    left: 100px;
+    font-size: 33px;
+  }
+
+  .text {
+    font-size: 33px;
+  }
+
+  .learnmore {
+    right: 140px;
+    font-size: 15px;
+
+  }
+
+  .buying {
+    right: 50px;
+    font-size: 15px !important;
+  }
+
+  .airpods4 {
+    font-size: 33px;
+    right: 80px;
+  }
+
+  .super {
+    font-size: 18px;
+    right: 70px;
+  }
+
+  .active {
+    font-size: 16px;
+    right: 10px;
+  }
+
+  .noise {
+    right: 160px;
+    font-size: 15px;
+    padding: 16px;
+  }
+
+  .cancel {
+    font-size: 15px;
+    right: 80px;
+    padding: 16px;
+  }
+
+  .classic {
+    display: grid;
+  }
+
+  .imageapple>h1 {
+    font-size: 33px;
+    left: 120px;
+  }
+
+  .imageapple img {
+    width: 30px;
+    left: 60px;
+    width: 40px;
+    top: 30px;
+  }
+
+  .mac>h1 {
+    right: 70px;
+    font-size: 33px;
+    top: 600px !important;
+  }
+
+
+
+  .imageapple>p {
+    left: 120px;
+
+  }
+
+  .mac>p {
+    top: 660px;
+    right: 60px;
+  }
+
+  .learnbtns {
+    top: 700px;
+    left: 50px;
+    font-size: 15px;
+    padding: 17px;
+
+  }
+
+  .buybtns {
+    left: 190px;
+    font-size: 15px;
+    padding: 17px;
+    top: 700px;
+  }
+
+  .classics>p {
+    left: 80px;
+
+  }
+
+  .learner {
+    padding: 17px;
+    right: 140px;
+    top: 160px;
+    font-size: 15px;
+  }
+
+  .buyer {
+    padding: 17px;
+    right: 70px;
+    top: 160px;
+    font-size: 15px;
+  }
+
+  .dollar {
+    display: grid;
+  }
+
+  .logo img {
+    width: 40px;
+    top: 30px;
+    left: 50px;
+  }
+
+  .logos img {
+    width: 40px;
+    right: 200px;
+    top: 600px;
+  }
+
+  .logo>h1 {
+    top: 30px;
+    left: 120px;
+    font-size: 33px;
+  }
+
+  .logo>p {
+    left: 30px;
+    top: 100px;
+    font-size: 18px;
+  }
+
+  .higher>p {
+    left: 40px;
+    top: 140px;
+    font-size: 18px;
+  }
+
+  .estimatebtn {
+    left: 70px;
+    font-size: 15px;
+    top: 170px;
+    padding: 17px;
+  }
+
+
+  .logos>h1 {
+    font-size: 33px;
+    right: 100px;
+    top: 610px;
+  }
+
+  .logos>p {
+    right: 40px;
+    top: 670px;
+    font-size: 18px;
+  }
+
+  .spanpara {
+    top: 700px;
+    right: 80px;
+  }
+
+  .learnmorebutton {
+    right: 150px;
+    top: 740px;
+    font-size: 15px;
+    padding: 16px;
+  }
+
+  .applybtn {
+    top: 740px;
+    font-size: 15px;
+    padding: 16px;
+    right: 30px;
+  }
+
+  .inform {
+    width: 98%;
+    padding: 12px;
+  }
+
+  .footer {
+    flex-wrap: wrap !important;
+    width: 90%;
+  }
+
+  .other {
+    width: 95%;
+  }
+
+  .copy {
+    width: 95%;
+  }
 }
